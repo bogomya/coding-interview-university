@@ -599,7 +599,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [x] [Queue (video)](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
     - [x] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
     - [x] [Priority Queues (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Priority-queues-deques/149042/177123-4.html)
-    - [ ] Implement using linked-list, with tail pointer:
+    - [x] Implement using linked-list, with tail pointer:
         - enqueue(value) - adds value at position at tail
         - dequeue() - returns value and removes least recently added element (front)
         - empty()
@@ -608,7 +608,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - dequeue() - returns value and removes least recently added element
         - empty()
         - full()
-    - [ ] Cost:
+    - [x] Cost:
         - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
             because you'd need the next to last element, causing a full traversal each dequeue
         - enqueue: O(1) (amortized, linked list and array [probing])
